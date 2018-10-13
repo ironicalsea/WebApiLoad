@@ -23,12 +23,6 @@ namespace WebApiLoad.Controllers
             return new string[] { str };
         }
 
-        [SwaggerOperation("GetString")]
-        public IEnumerable<string> Get1(string str)
-        {
-            return new string[] { str };
-        }
-
         // GET api/values/5
         [SwaggerOperation("GetById")]
         [SwaggerResponse(HttpStatusCode.OK)]
