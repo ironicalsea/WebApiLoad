@@ -14,7 +14,7 @@ namespace WebApiLoad.Controllers
         [SwaggerOperation("GetAll")]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value3", "value6" };
+            return new string[] { "value5", "value6" };
         }
 
         // GET api/values/5
