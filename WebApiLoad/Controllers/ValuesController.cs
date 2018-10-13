@@ -24,7 +24,7 @@ namespace WebApiLoad.Controllers
         }
 
         [SwaggerOperation("GetString")]
-        public IEnumerable<string> Get1(string str)
+        public IEnumerable<string> Get3(string str)
         {
             return new string[] { str };
         }
