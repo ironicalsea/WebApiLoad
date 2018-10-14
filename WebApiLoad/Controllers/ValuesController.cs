@@ -29,7 +29,7 @@ namespace WebApiLoad.Controllers
         [SwaggerResponse(HttpStatusCode.NotFound)]
         public string Get(int id)
         {
-            return "value";
+            return "value123";
         }
 
         // POST api/values
