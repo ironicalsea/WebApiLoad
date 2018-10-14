@@ -18,19 +18,7 @@ namespace WebApiLoad.Controllers
         }
 
         [SwaggerOperation("GetInt")]
-        public IEnumerable<int> Get1(int intValue)
-        {
-            return new int[] { intValue };
-        }
-
-        [SwaggerOperation("GetInt")]
-        public IEnumerable<int> Get2(int intValue)
-        {
-            return new int[] { intValue };
-        }
-
-        [SwaggerOperation("GetInt")]
-        public IEnumerable<int> Get3(int intValue)
+        public IEnumerable<int> Get4(int intValue)
         {
             return new int[] { intValue };
         }
