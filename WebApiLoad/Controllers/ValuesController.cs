@@ -18,12 +18,6 @@ namespace WebApiLoad.Controllers
         }
 
         [SwaggerOperation("GetString")]
-        public IEnumerable<string> Get3(string str)
-        {
-            return new string[] { str };
-        }
-
-        [SwaggerOperation("GetString")]
         public IEnumerable<string> Get4(string str)
         {
             return new string[] { str };
