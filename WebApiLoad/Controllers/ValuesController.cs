@@ -17,22 +17,22 @@ namespace WebApiLoad.Controllers
             return new string[] { "value7", "value6" };
         }
 
-        [SwaggerOperation("GetString")]
-        public IEnumerable<string> Get1(string str)
+        [SwaggerOperation("GetInt")]
+        public IEnumerable<int> Get1(int intValue)
         {
-            return new string[] { str };
+            return new int[] { intValue };
         }
 
-        [SwaggerOperation("GetString")]
-        public IEnumerable<string> Get2(string str)
+        [SwaggerOperation("GetInt")]
+        public IEnumerable<int> Get2(int intValue)
         {
-            return new string[] { str };
+            return new int[] { intValue };
         }
 
-        [SwaggerOperation("GetString")]
-        public IEnumerable<string> Get3(string str)
+        [SwaggerOperation("GetInt")]
+        public IEnumerable<int> Get3(int intValue)
         {
-            return new string[] { str };
+            return new int[] { intValue };
         }
 
         // GET api/values/5
